@@ -1,0 +1,35 @@
+.sponsors {
+   background: black;
+   padding: 125px 10px;
+}
+
+.sponsorsBorder {
+   @include image-outline-left(0.5);
+}
+
+.sponsorsFlex {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   @include image-outline-right(0.5);
+}
+
+.sponsorsTitle {
+   text-align: center;
+}
+
+.sponsorsBox {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+
+   p {
+      text-align: center;
+   }
+
+   .ngg-galleryoverview {
+      display: flex;
+      flex-direction: column;
+   }
+
+}

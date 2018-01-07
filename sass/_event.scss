@@ -1,0 +1,27 @@
+.event {
+   padding: 125px 10px;
+   background: linear-gradient(to right, rgba(26, 14, 7, 0.7), rgba(26, 14, 7, 0.7)), url(../basicsasstheme/assets/bow.jpg);
+   background-size: cover;
+}
+
+.eventTitle {
+   text-align: center;
+}
+
+.eventFlex {
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+}
+
+.aboutEvent {
+   // max-width: 450px;
+margin: 5px;
+}
+
+.moreEventInfo {
+   max-width: 350px;
+   border-color: transparent;
+   font-size: 12px;
+   margin: 5px;
+}

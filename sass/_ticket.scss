@@ -1,0 +1,22 @@
+.ticket {
+   background: black;
+   padding: 125px 10px;
+}
+
+.ticketFlex {
+   display: flex;
+   justify-content: space-between;
+
+   .ticketImg {
+      max-width: 500px;
+      @include image-outline-right(0.5);
+   }
+
+   .ticketText {
+      max-width: 400px;
+      @include image-outline-left(0.5);
+   }
+}
+
+
+

@@ -1,0 +1,31 @@
+.hero-image-about {
+   padding-top: 75px;
+   background: 
+   // linear-gradient(to right, rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.452)), 
+   url(../basicsasstheme/assets/ProblematicOrch_2016.jpg);
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+.arrowDiv {
+   padding-top: 50vh;
+   text-align: center;
+   margin-bottom: 150px;
+}
+
+.heroArrow {
+   text-align: center;
+   margin-top: 50vh;
+}
+
+.flexProb {
+   display: flex;
+   justify-content: center;
+}
+
+.aboutProb {
+   display: flex;
+   flex-direction: column;
+   margin: 125px 10px;
+   max-width: 700px;
+}

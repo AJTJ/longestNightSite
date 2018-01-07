@@ -1,0 +1,58 @@
+// Rem output with px fallback
+@mixin font-size($sizeValue: 1) {
+	font-size: ($sizeValue * 16) * 1px;
+	font-size: $sizeValue * 1rem;
+}
+
+// Center block
+@mixin center-block {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+// Clearfix
+@mixin clearfix() {
+	content: "";
+	display: table;
+	table-layout: fixed;
+}
+
+// Clear after (not all clearfix need this also)
+@mixin clearfix-after() {
+	clear: both;
+}
+
+// Column width with margin
+@mixin column-width($numberColumns: 3) {
+	width: map-get( $columns, $numberColumns ) - ( ( $columns__margin * ( $numberColumns - 1 ) ) / $numberColumns );
+}
+
+//MINE!
+
+@mixin border-color($opacity) {
+   border-color: rgba(153, 86, 32,$opacity);
+}
+
+@mixin border-gradient {
+   border-image: linear-gradient(to right, black, black 15%, rgb(153, 86, 32) 25%, rgb(153, 86, 32));
+   border-image-slice: 1;
+}
+
+@mixin image-outline-left($opacity) {
+   border: solid 30px transparent;
+   box-shadow: -1px 1px 0 0px rgba(153, 86, 32,$opacity);
+}
+
+@mixin image-outline-right($opacity) {
+   border: solid 30px transparent;
+   box-shadow: 1px -1px 0 0px rgba(153, 86, 32,$opacity);
+}
+
+@mixin background-color {
+   background-color: rgb(26, 14, 7);
+}
+
+@mixin background-gradient {
+   background: linear-gradient(to right, black, black 15%, rgb(26, 14, 7) 25%, rgb(26, 14, 7));
+}

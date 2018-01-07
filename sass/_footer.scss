@@ -1,0 +1,27 @@
+.site-footer {
+   padding: 30px 10px;;
+   background: black;
+   height: 200px;
+   text-align: center;
+   display: flex;
+   justify-content: space-between;
+
+   .footerFlex {
+      display: flex;
+      flex-direction: column;
+      width: 200px;
+
+
+      .underline {
+         text-align: center;
+         padding: 20px 0;
+         width: 100%;
+      }
+
+      .site-info {
+         margin: 20px 0px;
+         font-size: 12px;
+      }
+   }
+}
+
