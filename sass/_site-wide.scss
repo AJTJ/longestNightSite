@@ -16,10 +16,15 @@
    border: 1px solid;
    border-radius: 5px;
    @include border-color(0.5);
-   background: rgba(0, 0, 0, 0.95);
-   padding: 40px;
+   background: rgba(14, 8, 3, 0.98);
+   padding: 70px;
 }
 
-.event, .contact, .history, .problematic, .sponsors, .ticket {
+.lns, .event, .contact, .history, .problematic, .sponsors, .ticket {
    min-height: 80vh;
+   padding: 125px 10px;
 }
+
+// #envirabox-overlay {
+//    background-color: white !important;
+// }

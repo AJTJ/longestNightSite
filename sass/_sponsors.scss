@@ -1,6 +1,15 @@
 .sponsors {
-   background: black;
+   background: #1b0f07;;
    padding: 125px 10px;
+   color: #5b3318;
+
+   p {
+      color: $color__link;
+   }
+
+   h3 {
+      padding-bottom: 15px;
+   }
 }
 
 .sponsorsBorder {
@@ -16,6 +25,14 @@
 
 .sponsorsTitle {
    text-align: center;
+   padding-top: 35px;
+}
+
+.sponsorsWhite {
+   background: white;
+   border-radius: 3px;
+   padding: 5px;
+
 }
 
 .sponsorsBox {

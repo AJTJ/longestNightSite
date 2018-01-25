@@ -19,6 +19,7 @@
          <div class="ticketImg"> 
             <?php the_post_thumbnail(); ?>
          </div>
+
       </div>
       <?php endwhile; /* End About Loop */ ?>
       <?php wp_reset_postdata(); ?>

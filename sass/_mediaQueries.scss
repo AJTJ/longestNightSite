@@ -1,0 +1,103 @@
+
+@media (max-width: 1060px) {
+   h1 {
+      padding-left: 40px;
+   }
+   
+   .lnsFlex {
+      justify-content: space-around;
+   }
+   .lnsText {
+      max-width: 800px;
+   }
+   .lnsImg {
+      max-width: 800px;
+      flex-grow: 1;
+   }
+   .ticketFlex {
+      justify-content: space-around;
+   }
+   .ticketText {
+      max-width: 800px;
+      flex-grow: 1;
+   }
+   .ticketImg {
+      max-width: 800px;
+   }
+   .ticketImg {
+      @include image-outline-left(0.5);
+   }
+
+   .ticketText {
+      @include image-outline-right(0.5);
+   }
+}
+
+@media (max-width: 660px) {
+   h1 {
+      font-size: 20px;
+      padding-top: 100px;
+      padding-left: 40px;
+      color: $color__text-main;
+   }
+   h2 {
+      font-size: 18px;
+   }
+   h3 {
+      font-size: 15px;
+   }
+   p {
+      font-size: 14px;
+   }
+}
+
+@media (max-width: 450px) {  
+   .borderOne {
+      padding: 30px;
+   }
+   
+   h1 {
+      font-size: 20px;
+      padding-top: 100px;
+      color: $color__text-main;
+   }
+
+   h2 {
+      text-align: left;
+   }
+
+   .lnsTitle  {
+      text-align: center;
+   }
+
+   .fa-angle-down {
+      color: transparent;
+   }
+
+   .lnsImg, .ticketImg {
+      border: none;
+      box-shadow: none;
+      padding: 30px;
+   }
+
+   .lnsText, .ticketText {
+      border: none;
+      box-shadow: none;
+      text-align: left;
+      padding: 20px;
+   }
+
+   .sponsorsBorder, .sponsorsFlex {
+      border: none;
+      box-shadow: none;
+   }
+
+   .sponsorsWhite {
+      padding: 15px;
+   }
+
+   .underline {
+      border-color: transparent;
+   }
+}
+

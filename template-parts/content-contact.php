@@ -14,10 +14,38 @@
          <div class="contactText2 borderOne">
             <h2><?php the_title(); ?></h2>
             <?php the_content(); ?>
-         </div>
-      </div>
 
+            <!-- <form action="https://formspree.io/your@email.com"
+      method="POST">
+    <input type="text" name="name">
+    <input type="email" name="_replyto">
+    <input type="submit" value="Send">
+</form> -->
+
+            <div class="contactSection">
+               <form action="https://formspree.io/janke.aaron@gmail.com" method="POST" class="contactForm" name="contactForm">
+                  <div class="formFlex">
+                     <div class="inputTitlesDiv">
+                        <h5 class="inputTitles">Name</h5>
+                        <input type="text" name="name">
+                     </div>
+                     <div class="inputTitlesDiv">
+                        <h5 class="inputTitles">Email</h5>
+                        <input type="email" name="_replyto">
+                     </div>
+                  </div>
+                  <div class="inputTitlesDiv">
+                     <h5 class="inputTitles">Write message here</h5>
+                  </div>
+                  <textarea name="message" id="userInfo" cols="35" rows="10"></textarea>
+                  <div class="submitDiv">
+                     <input class="submit" type="submit" value="Send">
+                  </div>
+               </form>
+            </div>
+         </div>
       <?php endwhile; /* End About Loop */ ?>
       <?php wp_reset_postdata(); ?>
    </div>
+   
 </section>

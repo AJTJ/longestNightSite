@@ -129,6 +129,11 @@
    font-size: 12px;  
    transition: all 0.3s;
    text-align: center;
+   color: $color__link;
+
+   &:hover {
+      color: $color__link-hover;
+   }
 }
 
 .sub-menu {

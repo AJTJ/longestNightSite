@@ -4,6 +4,14 @@
    background-size: cover;
 }
 
+a {
+   color: $color__link;
+
+   &:hover {
+      color: $color__link-hover;
+   }
+}
+
 .eventTitle {
    text-align: center;
 }

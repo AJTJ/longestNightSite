@@ -12,9 +12,11 @@
       <?php if ( $about->have_posts() ) while ( $about->have_posts() ) : $about->the_post(); ?>
       <div class="sponsorsBorder">
          <div class="sponsorsFlex">
-            <h2 class="sponsorsTitle"><?php the_title(); ?></h2>
-            <div class="sponsorsBox">
-               <?php the_content(); ?>
+            <div class="sponsorsWhite">
+               <h2 class="sponsorsTitle"><?php the_title(); ?></h2>
+               <div class="sponsorsBox">
+                  <?php the_content(); ?>
+               </div>
             </div>
          </div>
       </div>  

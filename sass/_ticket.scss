@@ -6,17 +6,18 @@
 .ticketFlex {
    display: flex;
    justify-content: space-between;
+   flex-wrap: wrap;
 
-   .ticketImg {
-      max-width: 500px;
-      @include image-outline-right(0.5);
-   }
 
-   .ticketText {
-      max-width: 400px;
-      @include image-outline-left(0.5);
-   }
 }
 
+.ticketImg {
+   max-width: 500px;
+   @include image-outline-right(0.5);
+}
 
+.ticketText {
+   max-width: 500px;
+   @include image-outline-left(0.5);
+}
 
