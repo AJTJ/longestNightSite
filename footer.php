@@ -20,7 +20,7 @@
          </div>
          <div class="underline"></div>
          <div class="site-info">
-            <a class="footerText" href="aaronjanke.com">Site by Aaron Janke</a>
+            <a class="footerText" href="https://aaronjanke.com/">Site by Aaron Janke</a>
          </div><!-- .site-info -->
       </div>
 	</footer><!-- #colophon -->

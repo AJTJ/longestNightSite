@@ -23,7 +23,7 @@
 </form> -->
 
             <div class="contactSection">
-               <form action="https://formspree.io/janke.aaron@gmail.com" method="POST" class="contactForm" name="contactForm">
+               <form action="https://formspree.io/danieljanke@northwestel.net" method="POST" class="contactForm" name="contactForm">
                   <div class="formFlex">
                      <div class="inputTitlesDiv">
                         <h5 class="inputTitles">Name</h5>

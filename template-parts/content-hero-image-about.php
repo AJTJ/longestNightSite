@@ -11,13 +11,12 @@
       
       <div class="container">
          <h1><?php the_title(); ?></h1>
-         <h1 class="testHeader">Problematic Orchestra</h1>
          <div class="arrowDiv">
             <a class="arrowLink" href="#aboutProb"><i class="fas fa-angle-down fa-3x"></i></a>
          </div>
          <div id="aboutProb"></div>
          <div class="flexProb">
-            <div class="aboutProb borderOne">
+            <div class="aboutProbText borderOne">
                <?php the_content(); ?>
             </div>
          </div> 

@@ -18,7 +18,9 @@
    <meta name="keywords" content="Longest Night Society, Problematic Orchestra, Daniel Janke, Yukon, Orchestra, Whitehorse">
    <link rel="profile" href="http://gmpg.org/xfn/11">
    <script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
-   <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700|Alegreya+Sans:400,700|Nixie+One|Arimo:400,700|Rubik:400,700" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Rubik:400,700" rel="stylesheet">
+
+   <!-- Cinzel+Decorative:400,700|Alegreya+Sans:400,700|Nixie+One|Arimo:400,700| -->
 
 	<?php wp_head(); ?>
 </head>

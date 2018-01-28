@@ -15,9 +15,14 @@
 
 .lnsImg {
    position: relative;
-   display: inline-block;
+   // display:inline-block;
    max-width: 500px;
    @include image-outline-left(0.5);
+   vertical-align: text-bottom;
+}
+
+.innerLNS {
+
 }
 
 .lnsText {

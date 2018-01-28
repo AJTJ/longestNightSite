@@ -19,7 +19,7 @@
             </div>
          </div>
          <div class="lnsImg"> 
-            <?php the_post_thumbnail(); ?>
+            <div class="innerLNS"><?php the_post_thumbnail(); ?></div>
          </div>
 
       </div>   

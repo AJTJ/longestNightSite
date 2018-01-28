@@ -26,10 +26,9 @@
   </div>
 </section>
 
-         <!-- <div class="moreEventInfo"> -->
-               <!-- $my_id = 153;
-               $post_id_153 = get_post($my_id);
-               $content = $post_id_153->post_content;
+               <!-- $my_id = 484;
+               $post_id_484 = get_post($my_id);
+               $content = $post_id_484->post_content;
                $content = apply_filters('the_content', $content);
                $content = str_replace(']]>', ']]>', $content);
                echo $content; -->
