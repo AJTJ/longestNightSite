@@ -16,6 +16,7 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <meta name="keywords" content="Longest Night Society, Problematic Orchestra, Daniel Janke, Yukon, Orchestra, Whitehorse">
+   <meta name="description" content="The mandate of Longest Night Society is to support the development of Problematic Orchestra, a semi-professional contemporary chamber orchestra based in Whitehorse, Yukon.">
    <link rel="profile" href="http://gmpg.org/xfn/11">
    <script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
    <link href="https://fonts.googleapis.com/css?family=Rubik:400,700" rel="stylesheet">

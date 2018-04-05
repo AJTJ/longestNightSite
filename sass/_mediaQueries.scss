@@ -1,5 +1,5 @@
 
-@media (max-width: 1060px) {
+@media screen and (max-width: 1060px) {
    h1 {
       padding-left: 40px;
    }
@@ -33,7 +33,7 @@
    }
 }
 
-@media (max-width: 940px) {
+@media screen and (max-width: 940px) {
    .aboutProbTextImg {
       flex-direction: column;
       align-items: space-between;
@@ -51,7 +51,7 @@
    }
 }
 
-@media (max-width: 660px) {
+@media screen and (max-width: 660px) {
    h1 {
       font-size: 20px;
       padding-top: 100px;
@@ -67,9 +67,31 @@
    p {
       font-size: 14px;
    }
+
+   .lns, .event, .contact, .history, .problematic, .sponsors, .ticket {
+      min-height: 80vh;
+      padding: 50px 10px;
+   }
+
+   .aboutProbText {
+      margin: 0 10px 50px;
+   }
+
+   .hero-image-about {
+      background-position: left;
+   }
+
+   .arrowDiv {
+      padding-top: 1vh;
+      margin-bottom: 1px;
+   }
+
+   .fa-angle-down {
+      color: transparent;
+   }
 }
 
-@media (max-width: 450px) {  
+@media screen and (max-width: 450px) {  
    .borderOne {
       padding: 30px;
    }
@@ -86,10 +108,6 @@
 
    .lnsTitle  {
       text-align: center;
-   }
-
-   .fa-angle-down {
-      color: transparent;
    }
 
    .lnsImg, .ticketImg {
